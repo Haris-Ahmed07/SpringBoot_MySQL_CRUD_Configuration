@@ -28,7 +28,6 @@ public class HomeController {
 	@PostMapping("/submit")
 	public String submit(@ModelAttribute("form") Form form) 
 	{
-		System.out.println("hi");
 		System.out.println(form);
 		if (form !=null) 
 		{			
